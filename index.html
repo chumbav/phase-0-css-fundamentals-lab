@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <link rel="stylesheet" href="./style.css" />
+    
   </head>
   <body>
-    <header>
+   
+    <header style="text-align: center;">
       <!-- logo -->
       <h1>Exceptional Realty Group</h1>
 
@@ -17,7 +19,15 @@
 
     <section id="featured-property">
       <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <img 
+           src="images/intro-pic.jpg" 
+           alt="A beautiful living room." 
+           title="Welcome to Exceptional Realty Group"
+           style="display: block; margin: auto;"
+          >
+        </div>
+           
         <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
       </figure>
 
@@ -47,18 +57,25 @@
       <div>
         <h3>Links</h3>
         <p>
-          <a href="#" target="_blank">Home Restoration</a><br>
-          <a href="#" target="_blank">Affordable Mortgages</a><br>
-          <a href="#" target="_blank">Professional Moving Crew</a>
+          <nav style="text-align: center;">
+            <a href="#" target="_blank">Home Restoration</a><br>
+            <a href="#" target="_blank">Affordable Mortgages</a><br>
+            <a href="#" target="_blank">Professional Moving Crew</a>
+          </nav>
+     
         </p>
       </div>
 
       <div>
         <h3>Follow</h3>
         <p>
-          <a href="#" target="_blank">YouTube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
-          <a href="#" target="_blank">Twitter</a>
+          <nav style="text-align: center;">
+            <a href="#" target="_blank">YouTube</a><br>
+            <a href="#" target="_blank">Facebook</a><br>
+            <a href="#" target="_blank">Twitter</a>
+
+          </nav>
+          
         </p>
       </div>
     </section>
